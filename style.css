@@ -1,0 +1,366 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .navbar-brand {
+            color: #007bff;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .navbar-brand:hover {
+            color: #0056b3;
+        }
+        .nav-link {
+            color: #007bff;
+            margin-right: 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #0056b3;
+        }
+        .social-icons a {
+            color: #007bff;
+            font-size: 1.2rem;
+            margin-right: 1.75rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .social-icons a:hover {
+            color: #0056b3;
+            transform: scale(1.2);
+            
+        }
+        .greet {
+            
+            background: url('https://healthy-kids.ru/wp-content/uploads/2019/11/shutterstock_588742991.jpg') no-repeat center center ;
+            background-size: cover;
+            padding: 100px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .greet .left-side {
+            flex-basis: 40%;
+            position: relative;
+            z-index: 1;
+            
+        }
+        .greet .right-side {
+            flex-basis: 55%;
+            text-align: left;
+            color: #053a96;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .greet .right-side h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .greet .right-side .btn {
+            margin-right: 10px;
+        }
+        .circle-img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            left: 0px;
+             
+        }
+        .inform{
+            background-color: #f6f7f93b;
+            
+            
+        }
+        .stages{
+            background-color: #fbfcfd3b;
+           margin-top: 0px;
+           padding: 0px;
+        
+   
+        
+        }
+
+      
+
+#cards{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+
+        /* Медиазапросы для респонсивности */
+        @media (max-width: 900px) {
+            .greet {
+                flex-direction: column;
+                text-align: center;
+                padding: 50px 0;
+            }
+            .greet .left-side {
+                margin-bottom: 20px;
+                flex-basis: 80%;
+            }
+            .greet .right-side {
+                flex-basis: 80%;
+                padding: 20px;
+            }
+            .greet .right-side h1 {
+                font-size: 2rem;
+                padding: 20px;
+            }
+            .circle-img {
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+                object-fit: cover;
+                padding: 20px;
+            }
+           
+            
+        }
+
+        @media (max-width: 480px) {
+            .greet .right-side h1 {
+                font-size: 1.5rem;
+            }
+            .greet .right-side .btn {
+                display: block;
+                margin: 10px 0;
+                width: 100%;
+            }
+        }
+   
+
+     
+
+        
+
+
+
+
+       
+        @media (min-width: 992px) {
+          h1 {
+            font-size: 2.5rem;
+          }
+          .accordion-button {
+            font-size: 1.25rem;
+          }
+        }
+      
+        @media (max-width: 991px) {
+          h1 {
+            font-size: 1.5rem;
+          }
+          .accordion-button {
+            font-size: 1rem;
+          }
+        }
+
+
+        /* Стили для футера */
+        footer {
+            background-color: #0a66de14;
+            color: rgb(4, 3, 3);
+            padding: 40px 0;
+            margin-top: 20px;
+        }
+
+        footer h5 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #040202;
+        }
+
+        footer a {
+            color: #050404;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #14ba6a;
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin-right: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons i:hover {
+            transform: scale(1.2);
+            color: #052fed;
+        }
+
+        .footer-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-info ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-map {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(9, 5, 5, 0.664);
+        }
+
+        .footer-map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 20px;
+            background-color: #7a99d66e;
+            color: #060404;
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom a {
+            color: #424244;
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover {
+            color: #ff7b7b;
+        }
+   
+
+            .service-card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                border: 1px solid #f1f1f1;
+                border-radius: 10px;
+                padding: 20px;
+            }
+        
+            .service-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+        
+            .service-card i {
+                transition: color 0.3s ease;
+            }
+        
+            .service-card:hover i {
+                color: #ff6600;
+            }
+        
+            .service-card h5 {
+                transition: color 0.3s ease;
+            }
+        
+            .service-card:hover h5 {
+                color: #ff6600;
+            }
+        
+            .service-card p {
+                color: #6c757d;
+                transition: color 0.3s ease;
+            }
+        
+            .service-card:hover p {
+                color: #333;
+            }
+        
+            /* Дополнительные стили для текста */
+            .service-card .card-body {
+                padding: 20px;
+            }
+        
+            .service-card .card-title {
+                font-weight: 600;
+            }
+         
+         
+                .step-card {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    border: 1px solid #f1f1f1;
+                    border-radius: 10px;
+                    padding: 20px;
+                }
+            
+                .step-card:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                }
+            
+                .step-card i {
+                    transition: color 0.3s ease;
+                }
+            
+                .step-card:hover i {
+                    color: #ff6600;
+                }
+            
+                .step-card h5 {
+                    transition: color 0.3s ease;
+                }
+            
+                .step-card:hover h5 {
+                    color: #ff6600;
+                }
+            
+                .step-card p {
+                    color: #6c757d;
+                    transition: color 0.3s ease;
+                }
+            
+                .step-card:hover p {
+                    color: #333;
+                }
+            
+                .step-card .card-body {
+                    padding: 20px;
+                }
+            
+                .step-card .card-title {
+                    font-weight: 600;
+                }
+            
+                /* Уменьшение расстояния между картами */
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+
+                .hero-section {
+                    background: url('https://media.istockphoto.com/id/1056397736/photo/young-hospital-patient-receives-a-balloon-from-his-doctor-with-joy.jpg?s=612x612&w=0&k=20&c=ODzbAmeaVfma3zu6cO9dPpAelaaGYnfYMI5eThAXTVs=') no-repeat center center/cover;
+                    color: rgb(5, 72, 242);
+                    text-align: center;
+                    padding: 100px 20px;
+                  }
+                  .hero-section h1 {
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                  }
+                  .hero-section p {
+                    font-size: 1.2rem;
+                    margin-bottom: 30px;
+                  }
+                  .btn-book {
+                    font-size: 1.2rem;
+                    padding: 10px 30px;
+                  }
+            
